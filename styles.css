@@ -1,0 +1,54 @@
+.header{
+    background-color: #1F2937;
+}
+
+.header h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header p {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.header a {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.rainfo h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+} 
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
