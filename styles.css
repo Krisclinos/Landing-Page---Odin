@@ -1,5 +1,6 @@
 .header{
     background-color: #1F2937;
+    padding: 5px 200px 80px 200px;
 }
 
 .topheader {
@@ -11,6 +12,25 @@
 .bottomheader{
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.btmheadimgdiv{
+    
+}
+
+.btmheadtextdiv{
+    width: 50%;
+}
+
+.header .bottomheader .btmheadtextdiv button{
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 5px 25px;
+    border-style: solid;
 }
 
 .header h1{
