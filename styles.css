@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 45%;
+    gap: 60%;
 }
 
 .bottomheader{
@@ -16,7 +16,7 @@
     align-items: center;
     text-align: left;
     gap: 50px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .btmheadimgdiv{
@@ -129,7 +129,11 @@ body {
 .rainfo2{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 70px;
+}
+
+.rainfo2 p{
+    margin-left: 10px;
 }
 
 .footer{
