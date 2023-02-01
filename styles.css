@@ -5,8 +5,9 @@
 
 .topheader {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 45%;
 }
 
 .bottomheader{
@@ -28,7 +29,7 @@
 
 .header .bottomheader .btmheadtextdiv button{
     border-radius: 5px;
-    border-width: 2px;
+    border-width: 1px;
     padding: 5px 25px;
     border-style: solid;
 }
@@ -53,6 +54,13 @@
 .header a {
     color: #F9FAF8;
     font-size: 18px;
+    text-decoration: none;
+}
+
+.header .topheader .links{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 button{
