@@ -49,10 +49,19 @@ button{
 
 .quote{
     background-color: #E5E7EB;
-    text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.quote-content{
+    width: 50%;
+    text-align: left;
+}
+
+.quotee{
+    text-align: right;
 }
 
 .quote p {
@@ -67,6 +76,10 @@ body {
     display: flex;
     flex-direction: column;
 
+}
+
+.rainfo{
+    margin: 50px;
 }
 
 .rainfo img{
